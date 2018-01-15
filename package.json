@@ -9,7 +9,7 @@
     "start-stg": "ng serve --environment=stg",
     "start-prod": "ng serve --environment=prod",
     "build": "ng build --prod",
-    "build-stg": "ng build --environment=stg",
+    "build-stg": "ng build --prod --environment=stg",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
